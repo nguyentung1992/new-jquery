@@ -1,0 +1,24 @@
+nguyentung1992
+Tung1992@
+
+
+<working copy>
+//l?n d?u tiên config cho nó
+$ git config --global user.name "nguyentung"
+$ git config --global user.email "nguyentung.iba@gmail.com"
+
+//ki?m tra tr?ng thái xem có s? thay d?i nào không
+git status
+
+<staging area>
+//add t?t c? các file mà có s? thay d?i có màu d?
+git add .git
+// sau khi add xong nh?ng file thay d?i vê tr?ng thái màu xanh
+
+<code chuy?n qua phân vùng local repository>
+//commit code
+git commit -m "Upload source (ghi tùy ý)"
+
+git push origin master <nhánh> => nh?p user và password
+
+
